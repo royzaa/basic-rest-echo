@@ -3,12 +3,12 @@ package usecases
 import (
 	"context"
 
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/modules/core/dto"
-	"github.com/dzungtran/echo-rest-api/modules/core/repositories"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/cue"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"github.com/royzaa/basic-rest-echo/modules/core/domains"
+	"github.com/royzaa/basic-rest-echo/modules/core/dto"
+	"github.com/royzaa/basic-rest-echo/modules/core/repositories"
+	"github.com/royzaa/basic-rest-echo/pkg/contexts"
+	"github.com/royzaa/basic-rest-echo/pkg/cue"
+	"github.com/royzaa/basic-rest-echo/pkg/utils"
 	"github.com/jinzhu/copier"
 )
 
