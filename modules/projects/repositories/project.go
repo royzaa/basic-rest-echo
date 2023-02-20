@@ -6,12 +6,12 @@ import (
 	"errors"
 
 	"github.com/Masterminds/squirrel"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/modules/projects/domains"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"github.com/royzaa/basic-rest-echo/infrastructure/datastore"
+	"github.com/royzaa/basic-rest-echo/modules/projects/domains"
+	"github.com/royzaa/basic-rest-echo/pkg/constants"
+	"github.com/royzaa/basic-rest-echo/pkg/contexts"
+	sqlTools "github.com/royzaa/basic-rest-echo/pkg/sql-tools"
+	"github.com/royzaa/basic-rest-echo/pkg/utils"
 	"github.com/jmoiron/sqlx"
 )
 
