@@ -1,13 +1,13 @@
 package di
 
 import (
-	"github.com/dzungtran/echo-rest-api/config"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/modules/core"
-	"github.com/dzungtran/echo-rest-api/modules/projects"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
+	"github.com/royzaa/basic-rest-echo/config"
+	"github.com/royzaa/basic-rest-echo/infrastructure/datastore"
+	"github.com/royzaa/basic-rest-echo/modules/core"
+	"github.com/royzaa/basic-rest-echo/modules/projects"
+	"github.com/royzaa/basic-rest-echo/pkg/logger"
+	"github.com/royzaa/basic-rest-echo/pkg/middlewares"
+	sqlTools "github.com/royzaa/basic-rest-echo/pkg/sql-tools"
 	"github.com/labstack/echo/v4"
 	"go.uber.org/dig"
 )
