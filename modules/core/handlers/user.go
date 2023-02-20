@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/modules/core/dto"
-	"github.com/dzungtran/echo-rest-api/modules/core/usecases"
-	"github.com/dzungtran/echo-rest-api/pkg/authz"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
-	"github.com/dzungtran/echo-rest-api/pkg/wrapper"
+	"github.com/royzaa/basic-rest-echo/modules/core/domains"
+	"github.com/royzaa/basic-rest-echo/modules/core/dto"
+	"github.com/royzaa/basic-rest-echo/modules/core/usecases"
+	"github.com/royzaa/basic-rest-echo/pkg/authz"
+	"github.com/royzaa/basic-rest-echo/pkg/constants"
+	"github.com/royzaa/basic-rest-echo/pkg/middlewares"
+	"github.com/royzaa/basic-rest-echo/pkg/utils"
+	"github.com/royzaa/basic-rest-echo/pkg/wrapper"
 	"github.com/labstack/echo/v4"
 )
 
